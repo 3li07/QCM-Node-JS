@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> <%= titre %></title>
+</head>
+<body>
+    Question 2: Qui est KEVIN ?
+    <form action="/qcm/storeqeust2" method="post">
+        <input type="radio" name="question1"  value="etudiant L1G1">etudiant L1G1 <br>
+        <input type="radio" name="question1"  value="etudiant L1G2">etudiant L1G2 <br>
+        <input type="radio" name="question1"  value="etudiant L2IDEV">etudiant L2IDEV <br>
+        <input type="radio" name="question1"  value="etudiant L2RSI">etudiant L2RSI <br>
+        <input type="submit" value="Corriger">
+
+    </form>
+</body>
+</html>
